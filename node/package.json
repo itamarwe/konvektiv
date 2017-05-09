@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "coffee-script": "~1.8.0",
-    "express": "~4.8.7",
+    "express": "~4.8.7"
   },
   "devDependencies": {},
   "main": "server.coffee",
