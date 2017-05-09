@@ -2,7 +2,7 @@
   "name": "konvektiv",
   "version": "0.0.1",
   "scripts": {
-    "start": "coffee server",
+    "start": "coffee server.coffee",
     "test": "mocha"
   },
   "dependencies": {
