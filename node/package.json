@@ -1,0 +1,17 @@
+{
+  "name": "konvektiv",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "coffee server",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "coffee-script": "~1.8.0",
+    "express": "~4.8.7",
+  },
+  "devDependencies": {},
+  "main": "server.coffee",
+  "directories": {
+    "test": "test"
+  }
+}
