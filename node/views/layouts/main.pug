@@ -1,10 +1,18 @@
-html
+html(lang='en')
   head
-    block head
+    meta(charset='utf8')
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
     link(rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css')
     !=css('main')
+    block head
   body
+    nav.navbar.navbar-inverse
+      .container
+        a.navbar-brand(href="/") konvektiv
     block body
     include ../partials/ga
+    include ../partials/bootstrap
+    include ../partials/jquery
     block scripts
